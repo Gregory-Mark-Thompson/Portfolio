@@ -1,3 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: #f9fafb;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 1rem;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #1a1a1a;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #444;
+}
+
+h3 {
+    font-size: 1.5rem;
+    color: #555;
+    margin-top: 3rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
 .horizontal {
     display: flex;
     flex-direction: row;
