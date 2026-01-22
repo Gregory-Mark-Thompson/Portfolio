@@ -43,6 +43,10 @@ p {
     display: flex;
     flex-direction: row;
     gap: 1.5rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 2rem;
 }
 
 .appList {
@@ -78,5 +82,16 @@ p {
     height: auto;
     border-radius: 8px;
     margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);  /* light image shadow */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+a {
+    color: #eb25b0;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #eb25b0;
 }
